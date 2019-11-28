@@ -43,3 +43,8 @@ Once the image it built, it's cached.  To delete the image and build a new one:
 ## Links
 * [Other examples](https://github.com/pedestal/samples)
 
+## Tests
+
+`curl -H "Accept: application/json" -H "Content-Type: application/json" -X POST  -d '{"name": "joe"}' localhost:8080/users`
+`curl localhost:8080/users/1`
+
